@@ -1,0 +1,84 @@
+@use "../abstract/mixins";
+@use "../abstract/colors.scss";
+
+.footer{
+    position: relative;
+    margin-top: 6.4rem;
+    width: 144rem;
+    height: 30rem;
+    padding: 0rem 4.8rem;
+    background: colors.$navLightBlack;
+}
+
+.footer__group{
+    display: flex;
+}
+
+.footer__left{
+    display: flex;
+    gap: 4rem;
+    padding-top: 2.4rem;
+}
+
+.footer__ul{
+    width: 20rem;
+}
+
+.footer__li{
+    list-style: none;
+    width: 100%;
+    padding: .3rem 0rem;
+}
+
+.footer__a{
+    color: white;
+    text-decoration: none;
+    font-size: 80%;
+    
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.footer__right{
+    padding-top: 2.4rem;
+    margin-left: 40%;
+}
+
+.footer__button{
+    width: 13rem;
+    height: 4rem;
+    border-radius: .1rem;
+    border: 0.1rem solid white;
+    background: colors.$navLightBlack;
+    color: white;
+    font-size: 125%;
+    top: 50%;
+    font-size: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    &:hover{
+        cursor: pointer;
+        background-color: rgba(255,255,255,.08);
+    }
+}
+
+.footer__figure{
+    margin-top: 6.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__img{
+    width: 9.1rem;
+    height: 3.4rem;
+    object-fit: contain;
+}
+
+.footer__span{
+    color: white;
+    font-size: 60%;
+}

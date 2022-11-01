@@ -1,0 +1,104 @@
+@use "../abstract/colors.scss";
+@use "../abstract/mixins";
+
+.header__cursus{
+    margin: 0 auto;
+    width: 95%;
+    margin-top: 4rem;
+}
+
+.cursus__h2{
+    font-size: 175%;
+    font-weight: 700;
+    
+}
+
+.cursus__p{
+    font-size: 110%;
+    width: 60%;
+    margin-top: 1rem;
+}
+
+.cursus__nav{
+    padding-top: 1rem;
+}
+
+.cursus__ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.listItem__btn{
+    border: none;
+    background: none;
+    font-size: 75%;
+    font-weight: 800;
+    color: grey;
+
+    &:hover{
+        color: colors.$navBlack;
+        cursor: pointer;
+    }
+}
+
+.cursus_figure{
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 27rem;
+    border: 1px solid rgb(197, 197, 197);
+    padding: 3.5rem 3rem;
+}
+
+.cursus__h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.cursus__p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 75%;
+}
+
+.cursus__p--python{
+    display: block;
+}
+
+.cursus__p--excel{
+    display: none;
+}
+
+.cursus__p--webontwikkeling{
+    display: none;
+}
+
+.cursus__p--javascript{
+    display: none;
+}
+
+.cursus__p--datawetenschap{
+    display: none;
+}
+
+.cursus__p--aws-certificering{
+    display: none;
+}
+
+.cursus__p--tekenen{
+    display: none;
+}
+
+.cursus__btn{
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: white;
+    border: 1px solid black;
+    font-size: 75%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+
+    &:hover{
+        background: rgb(230, 230, 230);
+    }
+}
+

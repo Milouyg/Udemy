@@ -1,0 +1,104 @@
+@use "../abstract/mixins";
+@use "../abstract/colors.scss";
+
+.nav{
+    width: 100%;
+    height: 7.2rem;
+    background: white;
+    padding: 1rem 2rem;
+    box-shadow: 0px 2px 5px 0 rgba(86, 86, 86, 0.3);
+}
+
+.nav__ul{
+    @include mixins.flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    gap: 1rem;
+}
+
+.nav__listItem{
+    list-style: none;
+}
+
+.nav__a{
+    text-decoration: none;
+    color: colors.$navBlack;
+    font-family: 'Poppins', sans-serif;
+    font-size: 70%;
+
+        &:hover{
+            color: colors.$udemyPurple;
+        }
+}
+
+.magnifyingGlass{
+    position: absolute;
+    top: 2.75rem;
+    padding-left: 1.5rem;
+    z-index: 1;
+    color: grey;
+    font-size: 80%;
+}
+
+.nav__listItem--searchbar{
+    width: 100rem;
+}
+
+
+.nav__input{
+    width: 100%;
+    height: 4.5rem;
+    border-radius: 5rem;
+    border: 1px solid colors.$navBlack;
+    padding: 1rem;
+    padding-left: 5rem;
+    position: relative;
+    background: rgb(249, 249, 249);
+}
+
+.nav__figure{
+    width: 10rem;
+    height: 5rem;
+}
+
+.nav__logo{
+    width: 100%;
+    height: 100%;
+}
+
+.shoppingCart{
+    font-size: 150%;
+}
+
+.nav__button{
+    background: white;
+    padding: 1rem;
+    font-weight: 800;
+    border: 1px solid colors.$navBlack;
+}
+
+.nav__group__listItems{
+    display: flex;
+    gap: 1rem;
+}
+
+.nav__button--inschrijven{
+    background: colors.$navLightBlack;
+    color: white;
+
+    &:hover{
+        background: colors.$navBlack;
+    }
+}
+
+.nav__button--inloggen:hover{
+    background: #eee;
+}
+
+.nav__button--internationaal{
+    width: 4rem;
+
+    &:hover{
+        background: #eee;
+    }
+}

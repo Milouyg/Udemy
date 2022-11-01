@@ -1,0 +1,28 @@
+@use "../abstract/mixins";
+
+.udlite__container{
+    width: 100%;
+    margin-top: 6.4rem;
+    padding: 2rem 0;
+    z-index: 1;
+    background: grey;
+}
+
+.udlite__group{
+    // @include mixins.flex;
+    @include mixins.flex;
+    width: 100%;
+}
+
+.udlite__icon{
+    font-size: 200%;
+    display: block;
+    padding-right: 1rem;
+}
+
+.udlite__heading{
+    font-size: 100%;
+    width: 50ch;
+}
+
+

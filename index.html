@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy namaken</title>
+    <script src="js/main.js" defer></script>
+    <script src="https://kit.fontawesome.com/b1a8b29774.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <ul class="nav__ul">
+            <li class="nav__listItem">
+                <figure class="nav__figure">
+                    <img class="nav__logo" src="img/udemyLogo.png" alt="Logo Udemy">
+                </figure>
+            </li>
+            <li class="nav__listItem">
+                <a href="" class="nav__a">Categorieën</a>
+            </li>
+            <li class="nav__listItem nav__listItem--searchbar">
+                <i class="fa-solid fa-magnifying-glass magnifyingGlass"></i>
+                <input type="text" class="nav__input" placeholder="Alles zoeken">
+            </li>
+            <li class="nav__listItem">
+                <a href="" class="nav__a">Udemy Business</a>
+            </li>
+            <li class="nav__listItem">
+                <a href="" class="nav__a">Lesgeven op Udemy</a>
+            </li>
+            <li class="nav__listItem">
+                <a href="" class="nav__a"><i class="fa-sharp fa-solid fa-cart-shopping shoppingCart"></i></a>
+            </li>
+            <div class="nav__group__listItems">
+                <li class="nav__listItem">
+                    <button class="nav__button nav__button--inloggen">Inloggen</button>
+                </li>
+                <li class="nav__listItem">
+                    <button class="nav__button nav__button--inschrijven">Inschrijven</button>
+                </li>
+                <li class="nav__listItem">
+                    <button class="nav__button nav__button--internationaal"><i class="fa-solid fa-globe"></i></button>
+                </li>
+            </div>
+
+        </ul>
+    </nav>
+    <header class="header">
+        <figure class="header__figure">
+            <button class="figure__btn figure__btn--left"><i class="fa-solid fa-chevron-left"></i></button>
+            <div class="figure__form">
+                <h2 class="figure__h2">
+                    Leren op een manier die bij jou past
+                </h2>
+                <p class="figure__p">
+                    Vaardigheden voor nu (en de toekomst). Ga aan de slag met ons.
+                </p>
+            </div>
+            <img src="img/girl.jpg" alt="" class="figure__img">
+            <button class="figure__btn figure__btn--right"><i class="fa-solid fa-chevron-right"></i></button>
+        </figure>
+        <section class="header__cursus">
+            <h2 class="cursus__h2">
+                Een veelzijdige aanbod aan cursussen
+            </h2>
+            <p class="cursus__p">
+                Je kunt kiezen uit meer dan 204.000 online videocursussen en elke maand komen daar nieuwe cursussen bij
+            </p>
+            <nav class="cursus__nav">
+                <!-- Kijk bij Pikminbloom hoe hij de active link heeft gemaakt  -->
+                <ul class="cursus__ul">
+                    <li class="cursus__listItem"><button id="python" class="listItem__btn">Python</button></li>
+                    <li class="cursus__listItem"><button id="excel" class="listItem__btn">Excel</button></li>
+                    <li class="cursus__listItem"><button id="webontwikkeling"
+                            class="listItem__btn">Webontwikkeling</button></li>
+                    <li class="cursus__listItem"><button class="listItem__btn">JavaScript</button></li>
+                    <li class="cursus__listItem"><button class="listItem__btn">Datawetenschap</button></li>
+                    <li class="cursus__listItem"><button class="listItem__btn">AWS-certificering</button></li>
+                    <li class="cursus__listItem"><button class="listItem__btn">Tekenen</button></li>
+                </ul>
+            </nav>
+            <figure class="cursus_figure">
+                <h3 id="js--cursus__h3" class="cursus__h3">
+                    Vergroot je carrièremogelijkheden met Python
+                </h3>
+                <p id="js--python" class="cursus__p cursus__p--python">
+                    Of je nu werkt in machine learning of financiën, een carrière in webontwikkeling of datawetenschap
+                    nastreeft, Python is een van de belangrijkste vaardigheden die je kunt leren. Python heeft een
+                    eenvoudige syntaxis waardoor het uitermate geschikt is voor pc-, web- en zakelijke toepassingen. De
+                    ontwerpfilosofie van Phyton is...
+                </p>
+                <p id="js--excel" class="cursus__p cursus__p--excel">
+                    2
+                </p>
+                <p id="js--webontwikkeling" class="cursus__p cursus__p--webontwikkeling">
+                    3
+                </p>
+                <p id="js--javascript" class="cursus__p cursus__p--javascript">
+                    Of je nu werkt in machine learning of financiën, een carrière in webontwikkeling of datawetenschap
+                    nastreeft, Python is een van de belangrijkste vaardigheden die je kunt leren. Python heeft een
+                    eenvoudige syntaxis waardoor het uitermate geschikt is voor pc-, web- en zakelijke toepassingen. De
+                    ontwerpfilosofie van Phyton is...
+                </p>
+                <p id="js--datawetenschap" class="cursus__p cursus__p--datawetenschap">
+                    Of je nu werkt in machine learning of financiën, een carrière in webontwikkeling of datawetenschap
+                    nastreeft, Python is een van de belangrijkste vaardigheden die je kunt leren. Python heeft een
+                    eenvoudige syntaxis waardoor het uitermate geschikt is voor pc-, web- en zakelijke toepassingen. De
+                    ontwerpfilosofie van Phyton is...
+                </p>
+                <p id="js--aws-certificering" class="cursus__p cursus__p--aws-certificering">
+                    Of je nu werkt in machine learning of financiën, een carrière in webontwikkeling of datawetenschap
+                    nastreeft, Python is een van de belangrijkste vaardigheden die je kunt leren. Python heeft een
+                    eenvoudige syntaxis waardoor het uitermate geschikt is voor pc-, web- en zakelijke toepassingen. De
+                    ontwerpfilosofie van Phyton is...
+                </p>
+                <p id="js--tekenen" class="cursus__p cursus__p--tekenen">
+                    Of je nu werkt in machine learning of financiën, een carrière in webontwikkeling of datawetenschap
+                    nastreeft, Python is een van de belangrijkste vaardigheden die je kunt leren. Python heeft een
+                    eenvoudige syntaxis waardoor het uitermate geschikt is voor pc-, web- en zakelijke toepassingen. De
+                    ontwerpfilosofie van Phyton is...
+                </p>
+                <button class="cursus__btn">Verken Python</button>
+            </figure>
+        </section>
+        <main class="container">
+            <figure class="udlite__container">
+                <div class="udlite__group">
+                    <i class="fa-regular fa-circle-play udlite__icon"></i>
+                    <p class="udlite__heading"></i>Leer vaardigheden die gevraagd zijn op de markt met meer dan 204.000
+                        videocursussen</p>
+                    <i class="fa-regular fa-circle-play udlite__icon"></i>
+                    <p class="udlite__heading"></i>Kies cursussen van experts uit de praktijk</p>
+                    <i class="fa-regular fa-circle-play udlite__icon"></i>
+                    <p class="udlite__heading"></i>Leer op je eigen tempo met levenslange toegang op mobiel en desktop
+                    </p>
+                </div>
+            </figure>
+            <h2 class="container__h2">Studenten kijken naar</h2>
+            <div class="container__articles">
+                <article class="container__article">
+                    <figure class="container__figure">
+                        <img src="img/article.jpg" alt="" class="container__img">
+                    </figure>
+                    <p class="container__figcaption">
+                        <a href="" class="container__a">Javascript voor beginners en gevorderden</a>
+                    <h4 class="container__h4">Maarten Hus</h4>
+                    <data class="container__data container__data--cijfer">4.4</data>
+                    &#9733;
+                    &#9733;
+                    &#9733;
+                    &#x2729;
+                    <span class="container__data container__data--reviews">(80)</span>
+                    </p>
+                    <div class="container__div">
+                        <data class="container__data container__data--price">&#x20AC; 11,99</data>
+                        <data class="container__data container__data--newPrice">&#x20AC; <s>84,99</s></data>
+                    </div>
+                    <mark class="mark">Bestseller</mark>
+                </article>
+                <article class="container__article">
+                    <figure class="container__figure">
+                        <img src="img/article.jpg" alt="" class="container__img">
+                    </figure>
+                    <p class="container__figcaption">
+                        <a href="" class="container__a">Javascript voor beginners en gevorderden</a>
+                    <h4 class="container__h4">Maarten Hus</h4>
+                    <data class="container__data container__data--cijfer">4.4</data>
+                    &#9733;
+                    &#9733;
+                    &#9733;
+                    &#x2729;
+                    <span class="container__data container__data--reviews">(80)</span>
+                    </p>
+                    <div class="container__div">
+                        <data class="container__data container__data--price">&#x20AC; 11,99</data>
+                        <data class="container__data container__data--newPrice">&#x20AC; <s>84,99</s></data>
+                    </div>
+                    <mark class="mark">Bestseller</mark>
+                </article>
+                <article class="container__article">
+                    <figure class="container__figure">
+                        <img src="img/article.jpg" alt="" class="container__img">
+                    </figure>
+                    <p class="container__figcaption">
+                        <a href="" class="container__a">Javascript voor beginners en gevorderden</a>
+                    <h4 class="container__h4">Maarten Hus</h4>
+                    <data class="container__data container__data--cijfer">4.4</data>
+                    &#9733;
+                    &#9733;
+                    &#9733;
+                    &#x2729;
+                    <span class="container__data container__data--reviews">(80)</span>
+                    </p>
+                    <div class="container__div">
+                        <data class="container__data container__data--price">&#x20AC; 11,99</data>
+                        <data class="container__data container__data--newPrice">&#x20AC; <s>84,99</s></data>
+                    </div>
+                    <mark class="mark">Bestseller</mark>
+                </article>
+                <article class="container__article">
+                    <figure class="container__figure">
+                        <img src="img/article.jpg" alt="" class="container__img">
+                    </figure>
+                    <p class="container__figcaption">
+                        <a href="" class="container__a">Javascript voor beginners en gevorderden</a>
+                    <h4 class="container__h4">Maarten Hus</h4>
+                    <data class="container__data container__data--cijfer">4.4</data>
+                    &#9733;
+                    &#9733;
+                    &#9733;
+                    &#x2729;
+                    <span class="container__data container__data--reviews">(80)</span>
+                    </p>
+                    <div class="container__div">
+                        <data class="container__data container__data--price">&#x20AC; 11,99</data>
+                        <data class="container__data container__data--newPrice">&#x20AC; <s>84,99</s></data>
+                    </div>
+                    <mark class="mark">Bestseller</mark>
+                </article>
+                <article class="container__article">
+                    <figure class="container__figure">
+                        <img src="img/article.jpg" alt="" class="container__img">
+                    </figure>
+                    <p class="container__figcaption">
+                        <a href="" class="container__a">Javascript voor beginners en gevorderden</a>
+                    <h4 class="container__h4">Maarten Hus</h4>
+                    <data class="container__data container__data--cijfer">4.4</data>
+                    &#9733;
+                    &#9733;
+                    &#9733;
+                    &#x2729;
+                    <span class="container__data container__data--reviews">(80)</span>
+                    </p>
+                    <div class="container__div">
+                        <data class="container__data container__data--price">&#x20AC; 11,99</data>
+                        <data class="container__data container__data--newPrice">&#x20AC; <s>84,99</s></data>
+                    </div>
+                    <mark class="mark">Bestseller</mark>
+                </article>
+            </div>
+            <section class="topCategorieën">
+                <h2 class="topcategorieën__h2">Topcategorieën</h2>
+                <div class="topCategorieen__articles topCategorieen__articles--top">
+                    <article class="topCategorieën__article">
+                        <figure class="topCategorieën__figure">
+                            <img src="img/topcategorieën.jpg" alt="" class="topCategorieen__img">
+                        </figure>
+                        <span class="topCategorieën__span">Design</span>
+                    </article>
+                    <article class="topCategorieën__article">
+                        <figure class="topCategorieën__figure">
+                            <img src="img/topcategorieën.jpg" alt="" class="topCategorieen__img">
+                        </figure>
+                        <span class="topCategorieën__span">Design</span>
+                    </article>
+                    <article class="topCategorieën__article">
+                        <figure class="topCategorieën__figure">
+                            <img src="img/topcategorieën.jpg" alt="" class="topCategorieen__img">
+                        </figure>
+                        <span class="topCategorieën__span">Design</span>
+                    </article>
+                    <article class="topCategorieën__article">
+                        <figure class="topCategorieën__figure">
+                            <img src="img/topcategorieën.jpg" alt="" class="topCategorieen__img">
+                        </figure>
+                        <span class="topCategorieën__span">Design</span>
+                    </article>
+                </div>
+                <div class="topCategorieen__articles topCategorieen__articles--bottom">
+                    <article class="topCategorieën__article">
+                        <figure class="topCategorieën__figure">
+                            <img src="img/topcategorieën.jpg" alt="" class="topCategorieen__img">
+                        </figure>
+                        <span class="topCategorieën__span">Design</span>
+                    </article>
+                    <article class="topCategorieën__article">
+                        <figure class="topCategorieën__figure">
+                            <img src="img/topcategorieën.jpg" alt="" class="topCategorieen__img">
+                        </figure>
+                        <span class="topCategorieën__span">Design</span>
+                    </article>
+                    <article class="topCategorieën__article">
+                        <figure class="topCategorieën__figure">
+                            <img src="img/topcategorieën.jpg" alt="" class="topCategorieen__img">
+                        </figure>
+                        <span class="topCategorieën__span">Design</span>
+                    </article>
+                    <article class="topCategorieën__article">
+                        <figure class="topCategorieën__figure">
+                            <img src="img/topcategorieën.jpg" alt="" class="topCategorieen__img">
+                        </figure>
+                        <span class="topCategorieën__span">Design</span>
+                    </article>
+                </div>
+            </section>
+            <section class="verschillendeOnderwerpen">
+                <h2 class="verschillendeOnderwerpen__h2">Uitgelichte onderwerpen per categorie</h2>
+                <div class="verschillendeOnderwerpen__group">
+                    <figure class="verschillendeOnderwerpen__figure">
+                        <h3 class="verschillendeOnderwerpen__h3">Development</h3>
+                        <a href="" class="verschillendeOnderwerpen__a">Python</a>
+                        <span class="verschillendeOnderwerpen__span">123 students</span>
+                        <a href="" class="verschillendeOnderwerpen__a">Web Development</a>
+                        <span class="verschillendeOnderwerpen__span">123 students</span>
+                        <a href="" class="verschillendeOnderwerpen__a">Machine Learning</a>
+                        <span class="verschillendeOnderwerpen__span">123 students</span>
+                    </figure>
+                    <figure class="verschillendeOnderwerpen__figure">
+                        <h3 class="verschillendeOnderwerpen__h3">Development</h3>
+                        <a href="" class="verschillendeOnderwerpen__a">Python</a>
+                        <span class="verschillendeOnderwerpen__span">123 students</span>
+                        <a href="" class="verschillendeOnderwerpen__a">Web Development</a>
+                        <span class="verschillendeOnderwerpen__span">123 students</span>
+                        <a href="" class="verschillendeOnderwerpen__a">Machine Learning</a>
+                        <span class="verschillendeOnderwerpen__span">123 students</span>
+                    </figure>
+                    <figure class="verschillendeOnderwerpen__figure">
+                        <h3 class="verschillendeOnderwerpen__h3">Development</h3>
+                        <a href="" class="verschillendeOnderwerpen__a">Python</a>
+                        <span class="verschillendeOnderwerpen__span">123 students</span>
+                        <a href="" class="verschillendeOnderwerpen__a">Web Development</a>
+                        <span class="verschillendeOnderwerpen__span">123 students</span>
+                        <a href="" class="verschillendeOnderwerpen__a">Machine Learning</a>
+                        <span class="verschillendeOnderwerpen__span">123 students</span>
+                    </figure>
+                    <figure class="verschillendeOnderwerpen__figure">
+                        <h3 class="verschillendeOnderwerpen__h3">Development</h3>
+                        <a href="" class="verschillendeOnderwerpen__a">Python</a>
+                        <span class="verschillendeOnderwerpen__span">123 students</span>
+                        <a href="" class="verschillendeOnderwerpen__a">Web Development</a>
+                        <span class="verschillendeOnderwerpen__span">123 students</span>
+                        <a href="" class="verschillendeOnderwerpen__a">Machine Learning</a>
+                        <span class="verschillendeOnderwerpen__span">123 students</span>
+                    </figure>
+                </div>
+                <button class="verschillendeOnderwerpen__button">Meer onderwerpen verkennen</button>
+            </section>
+            <section class="company">
+                <figure class="company__figure">
+                    <h3 class="company__h3">Vertrouwd door experts</h3>
+                    <p class="company__p">Toonaangevende bedrijven gebruiken dezelfde cursussen om werknemers te
+                        helpen hun vaardigheden op peil te houden.</p>
+                    <ul class="company__ul">
+                        <li class="company__brand">
+                            <img class="company__img" src="img/brandLogo.svg" alt="">
+                        </li>
+                        <li class="company__brand">
+                            <img class="company__img" src="img/brandLogo.svg" alt="">
+                        </li>
+                        <li class="company__brand">
+                            <img class="company__img" src="img/brandLogo.svg" alt="">
+                        </li>
+                        <li class="company__brand">
+                            <img class="company__img" src="img/brandLogo.svg" alt="">
+                        </li>
+                        <li class="company__brand">
+                            <img class="company__img" src="img/brandLogo.svg" alt="">
+                        </li>
+                        <li class="company__brand">
+                            <img class="company__img" src="img/brandLogo.svg" alt="">
+                        </li>
+                        <li class="company__brand">
+                            <img class="company__img" src="img/brandLogo.svg" alt="">
+                        </li>
+                    </ul>
+                </figure>
+            </section>
+            <section class="nonStudent">
+                <div class="nonStudent__group">
+                    <figure class="nonStudent__figure--logo">
+                        <img src="img/udemyBusiness.svg" alt="" class="nonStudent__img--udemyLogo">
+                    </figure>
+                    <h2 class="nonStudent__h2">Ontwikkel de vaardigheden van je team met Udemy Business</h2>
+                    <ul class="nonStudent__ul">
+                        <li class="nonStudent__li">Ongelimiteerde toegang tot meer dan 17.000 van de hoogst gewaardeerde
+                            Udemy-cursussen, altijd en overal</li>
+                        <li class="nonStudent__li">Internationale cursuscollectie in 14 talen</li>
+                        <li class="nonStudent__li">Topcertificering op het gebied van techniek/technologie en het
+                            zakenleven</li>
+                    </ul>
+                    <button class="nonStudent__button nonStudent__button--udemyBusiness">Neem Udemy Business</button>
+                    <button class="nonStudent__button nonStudent__button--info">Meer informatie</button>
+                </div>
+                <figure class="nonStudent__figure">
+                    <img src="img/coach.jpg" alt="" class="nonStudent__img">
+                </figure>
+            </section>
+
+            <section class="coaches">
+                <figure class="coaches__figure">
+                    <img src="img/coach.jpg" alt="" class="coaches__img">
+                </figure>
+                <div class="coaches__group">
+                    <h2 class="coaches__h2">Wordt een instructeur</h2>
+                    <p class="coaches__p">Miljoenen studenten krijgen op Udemy les van instructeurs over de hele wereld.
+                        Wij bieden de hulpmiddelen en vaardigheden zodat jij les kunt geven in je favoriete onderwerp.
+                    </p>
+                    <button class="coaches__button">Begin vandaag nog met lesgeven</button>
+                </div>
+            </section>
+            <footer class="footer">
+                    <div class="footer__group">
+                        <div class="footer__left">
+                            <ul class="footer__ul footer__ul--business">
+                                <li class="footer__li">
+                                    <a href="" class="footer__a">Udemy Business</a>
+                                </li>
+                                <li class="footer__li">
+                                    <a href="" class="footer__a">Lesgeven op Udemy</a>
+                                </li>
+                                <li class="footer__li">
+                                    <a href="" class="footer__a">De app downloaden</a>
+                                </li>
+                                <li class="footer__li">
+                                    <a href="" class="footer__a">Info over ons</a>
+                                </li>
+                                <li class="footer__li">
+                                    <a href="" class="footer__a">Contact opnemen</a>
+                                </li>
+                            </ul>
+                            <ul class="footer__ul footer__ul--vacatures">
+                                <li class="footer__li">
+                                    <a href="" class="footer__a">Vacatures</a>
+                                </li>
+                                <li class="footer__li">
+                                    <a href="" class="footer__a">Blog</a>
+                                </li>
+                                <li class="footer__li">
+                                    <a href="" class="footer__a">Hulp en ondersteuning</a>
+                                </li>
+                                <li class="footer__li">
+                                    <a href="" class="footer__a">Partner</a>
+                                </li>
+                                <li class="footer__li">
+                                    <a href="" class="footer__a">Investeerders</a>
+                                </li>
+                            </ul>
+                            <ul class="footer__ul footer__ul--voorwaarden">
+                                <li class="footer__li">
+                                    <a href="" class="footer__a">Voorwaarden</a>
+                                </li>
+                                <li class="footer__li">
+                                    <a href="" class="footer__a">Privacybeleid</a>
+                                </li>
+                                <li class="footer__li">
+                                    <a href="" class="footer__a">Cookie-instellingen</a>
+                                </li>
+                                <li class="footer__li">
+                                    <a href="" class="footer__a">Sitemap</a>
+                                </li>
+                                <li class="footer__li">
+                                    <a href="" class="footer__a">Toegankelijkheidsverklaring</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__right">
+                            <button class="footer__button"><i class="fa-solid fa-globe"></i>Netherlands</button>
+                        </div>
+                    </div>
+                <figure class="footer__figure">
+                    <img src="img/Udemy_logo.svg.png" alt="" class="footer__img">
+                    <span class="footer__span">© 2022 Udemy, Inc.</span>
+                </figure>
+            </footer>
+        </main>
+    </header>
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+@use "../abstract/mixins";
+@use "../abstract/colors.scss";
+
+.coaches{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coaches__figure{
+    width: 52rem;
+    height: 40rem;
+}
+
+.coaches__img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.coaches__group{
+    max-width: 40rem;
+}
+
+.coaches__h2{
+    margin-bottom: 1.6rem;
+}
+
+.coaches__p{
+    margin-bottom: 1.6rem;
+}
+
+.coaches__button{
+    @include mixins.button;
+
+    &:hover{
+        cursor: pointer;
+        background: colors.$navBlack;
+    }
+}

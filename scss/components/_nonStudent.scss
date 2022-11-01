@@ -1,0 +1,62 @@
+@use "../abstract/mixins";
+@use "../abstract/colors.scss";
+
+.nonStudent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.nonStudent__group{
+    width: 52rem;
+}
+
+.nonStudent__figure--logo{
+    width: 19.2rem;
+    height: 3.2rem;
+}
+
+.nonStudent__img--udemyLogo{
+    width: 75%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.nonStudent__h2{
+    width: 40rem;
+    margin-bottom: 1.6rem;
+}
+
+.nonStudent__ul{
+    width: 50ch;
+    margin-bottom: 1.6rem;
+}
+
+.nonStudent__li{
+    padding: .4rem 0;
+}
+
+.nonStudent__button{
+    @include mixins.button;
+}
+
+.nonStudent__button--udemyBusiness{
+    background: colors.$navLightBlack;
+
+    &:hover{
+        background: colors.$navBlack;
+    }
+}
+
+.nonStudent__button--info{
+    background: white;
+    color: colors.$navLightBlack;;
+
+    &:hover{
+        background: rgb(230, 230, 230);
+        cursor: pointer;
+    }
+}

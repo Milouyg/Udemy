@@ -1,0 +1,29 @@
+.company{
+    width: 100%;
+    height: auto;
+    margin: 6.4rem 0rem 9.6rem 0rem;
+    text-align: center;
+}
+
+.company__figure{
+    padding: 3.4rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+// .company__h3{
+//     font-size: ;
+// }
+
+.company__p{
+    margin: .8rem 0 2.4rem;
+}
+
+.company__ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.company__brand{
+    list-style: none;
+}
