@@ -1,0 +1,132 @@
+// 1200 px
+@media screen and (max-width: 75rem){
+    .figure__form{
+        width: 40rem;
+        padding: 1rem 2.5rem;
+    }
+
+    .figure__h2{
+        font-size: 150%;
+    }
+
+    .figure__p{
+        font-size: 100%;
+        padding-top: 2rem;
+    }
+}
+
+// 1100 px
+@media screen and (max-width: 68.75rem){
+    .nav__a--udemyBusiness{
+        display: none;
+    }
+
+    .figure__form{
+        width: 38rem;
+        position: absolute;
+        top: 10%;
+        padding: 1rem 2rem;
+    }
+
+    .figure__h2{
+        font-size: 125%;
+    }
+
+    .figure__p{
+        font-size: 80%;
+    }
+}
+
+
+// 1000 px
+@media screen and (max-width: 62.5rem){
+    .cursus__h2{
+        font-size: 150%;
+    }
+}
+
+// 920 px
+@media screen and (max-width: 57.5rem){
+    .nav__a--lesgeven{
+        display: none;
+    }
+
+    .figure__form{
+        width: 40rem;
+    }
+
+    .figure__btn{
+        display: none;
+    }
+
+}
+
+
+// 850
+@media screen and (max-width: 53.125rem){
+    .figure__form{
+        width: 35rem;
+        height: 15rem;
+        position: absolute;
+        top: 10%;
+        padding: 1rem 2rem;
+    }
+
+    .figure__h2{
+        font-size: 120%;
+    }
+
+    .figure__p{
+        font-size: 80%;
+        padding-top: 1rem;
+    }
+}
+
+// 800 px
+@media screen and (max-width: 50rem){
+    .nav__ul{
+        display: flex;
+    }
+
+    .magnifyingGlass{
+        font-size: 100%;
+    }
+
+    .nav__a--categorieën,
+    .nav__input,
+    .nav__button--inloggen,
+    .nav__button--inschrijven,
+    .nav__button--internationaal,
+    .magnifyingGlass{
+        display: none;
+    }
+
+    .figure__form{
+        padding: 1rem 2rem;
+    }
+
+    .figure__h2{
+        font-size: 110%;
+    }
+
+    .figure__p{
+        font-size: 70%;
+        padding-top: 1rem;
+    }
+
+    .cursus__h2{
+        font-size: 125%;
+    }
+
+    .cursus__p{
+        width: 49%;
+    }
+}
+
+// 700 px
+@media screen and (max-width: 43.75rem){
+    .figure__form{
+        display: none;
+    }
+}
+

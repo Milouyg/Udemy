@@ -10,8 +10,11 @@
 
 .container__articles{
     display: flex;
+    flex-wrap: wrap;
+    width: 144rem;
     gap: 2rem;
     justify-content: space-between;
+    
 }
 
 .container__article{

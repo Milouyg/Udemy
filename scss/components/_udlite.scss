@@ -8,8 +8,7 @@
     background: grey;
 }
 
-.udlite__group{
-    // @include mixins.flex;
+.udlite__groups{
     @include mixins.flex;
     width: 100%;
 }

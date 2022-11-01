@@ -123,6 +123,7 @@ body {
   display: flex;
   justify-content: center;
   position: relative;
+  width: 100%;
 }
 
 .figure__btn {
@@ -290,7 +291,7 @@ body {
   background: grey;
 }
 
-.udlite__group {
+.udlite__groups {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -320,6 +321,8 @@ body {
 
 .container__articles {
   display: flex;
+  flex-wrap: wrap;
+  width: 144rem;
   gap: 2rem;
   justify-content: space-between;
 }
@@ -413,7 +416,7 @@ body {
 }
 
 .verschillendeOnderwerpen {
-  width: 100%;
+  width: 144rem;
   height: 45rem;
   background: #f7f9fa;
   padding: 4rem 1.5rem;
@@ -675,6 +678,106 @@ body {
 .footer__span {
   color: white;
   font-size: 60%;
+}
+
+@media screen and (max-width: 75rem) {
+  .figure__form {
+    width: 40rem;
+    padding: 1rem 2.5rem;
+  }
+  .figure__h2 {
+    font-size: 150%;
+  }
+  .figure__p {
+    font-size: 100%;
+    padding-top: 2rem;
+  }
+}
+@media screen and (max-width: 68.75rem) {
+  .nav__a--udemyBusiness {
+    display: none;
+  }
+  .figure__form {
+    width: 38rem;
+    position: absolute;
+    top: 10%;
+    padding: 1rem 2rem;
+  }
+  .figure__h2 {
+    font-size: 125%;
+  }
+  .figure__p {
+    font-size: 80%;
+  }
+}
+@media screen and (max-width: 62.5rem) {
+  .cursus__h2 {
+    font-size: 150%;
+  }
+}
+@media screen and (max-width: 57.5rem) {
+  .nav__a--lesgeven {
+    display: none;
+  }
+  .figure__form {
+    width: 40rem;
+  }
+  .figure__btn {
+    display: none;
+  }
+}
+@media screen and (max-width: 53.125rem) {
+  .figure__form {
+    width: 35rem;
+    height: 15rem;
+    position: absolute;
+    top: 10%;
+    padding: 1rem 2rem;
+  }
+  .figure__h2 {
+    font-size: 120%;
+  }
+  .figure__p {
+    font-size: 80%;
+    padding-top: 1rem;
+  }
+}
+@media screen and (max-width: 50rem) {
+  .nav__ul {
+    display: flex;
+  }
+  .magnifyingGlass {
+    font-size: 100%;
+  }
+  .nav__a--categorieën,
+.nav__input,
+.nav__button--inloggen,
+.nav__button--inschrijven,
+.nav__button--internationaal,
+.magnifyingGlass {
+    display: none;
+  }
+  .figure__form {
+    padding: 1rem 2rem;
+  }
+  .figure__h2 {
+    font-size: 110%;
+  }
+  .figure__p {
+    font-size: 70%;
+    padding-top: 1rem;
+  }
+  .cursus__h2 {
+    font-size: 125%;
+  }
+  .cursus__p {
+    width: 49%;
+  }
+}
+@media screen and (max-width: 43.75rem) {
+  .figure__form {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
