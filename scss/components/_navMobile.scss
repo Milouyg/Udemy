@@ -1,0 +1,31 @@
+.nav__mobile{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav__mobile{
+    display: none;
+}
+
+.li__mobile{
+    list-style: none;
+    width: 100%;
+}
+
+.mobile__group{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.figure__mobile{
+    width: 10rem;
+    height: 5rem;
+}
+
+.img__mobile{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+

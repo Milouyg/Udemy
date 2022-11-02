@@ -1,5 +1,9 @@
+
+
 // 1200 px
 @media screen and (max-width: 75rem){
+    
+
     .figure__form{
         width: 40rem;
         padding: 1rem 2.5rem;
@@ -86,6 +90,14 @@
 @media screen and (max-width: 50rem){
     .nav__ul{
         display: flex;
+    }
+
+    .nav__mobile{
+        display: block;
+    }
+
+    .nav__ul{
+        display: none;
     }
 
     .magnifyingGlass{

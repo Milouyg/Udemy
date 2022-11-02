@@ -293,9 +293,9 @@ body {
 
 .udlite__groups {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .udlite__icon {
@@ -306,7 +306,7 @@ body {
 
 .udlite__heading {
   font-size: 100%;
-  width: 50ch;
+  max-width: 30rem;
 }
 
 .container {
@@ -746,6 +746,12 @@ body {
   .nav__ul {
     display: flex;
   }
+  .nav__mobile {
+    display: block;
+  }
+  .nav__ul {
+    display: none;
+  }
   .magnifyingGlass {
     font-size: 100%;
   }
@@ -778,6 +784,36 @@ body {
   .figure__form {
     display: none;
   }
+}
+.nav__mobile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav__mobile {
+  display: none;
+}
+
+.li__mobile {
+  list-style: none;
+  width: 100%;
+}
+
+.mobile__group {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.figure__mobile {
+  width: 10rem;
+  height: 5rem;
+}
+
+.img__mobile {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
 }
 
 /*# sourceMappingURL=style.css.map */
