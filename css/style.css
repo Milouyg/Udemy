@@ -114,7 +114,7 @@ body {
 }
 
 .header {
-  width: 144rem;
+  width: 100%;
   height: calc(100vh - 7.2rem);
   margin: 0 auto;
 }
@@ -208,6 +208,7 @@ body {
 
 .cursus__ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   list-style: none;
 }
@@ -227,7 +228,7 @@ body {
 .cursus_figure {
   margin-top: 1.5rem;
   width: 100%;
-  height: 27rem;
+  height: auto;
   border: 1px solid rgb(197, 197, 197);
   padding: 3.5rem 3rem;
 }
@@ -296,6 +297,7 @@ body {
   justify-content: space-between;
   width: 100%;
   flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .udlite__icon {
@@ -313,6 +315,7 @@ body {
   margin-top: 2rem;
   width: 100%;
   height: 100%;
+  padding: 0rem 4rem;
 }
 
 .container__h2 {
@@ -322,7 +325,7 @@ body {
 .container__articles {
   display: flex;
   flex-wrap: wrap;
-  width: 144rem;
+  width: 100%;
   gap: 2rem;
   justify-content: space-between;
 }
@@ -680,6 +683,34 @@ body {
   font-size: 60%;
 }
 
+.nav__mobile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  display: none;
+}
+
+.li__mobile {
+  list-style: none;
+  width: 100%;
+}
+
+.mobile__group {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.figure__mobile {
+  width: 10rem;
+  height: 5rem;
+}
+
+.img__mobile {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
 @media screen and (max-width: 75rem) {
   .figure__form {
     width: 40rem;
@@ -708,6 +739,9 @@ body {
   }
   .figure__p {
     font-size: 80%;
+  }
+  .cursus__p {
+    width: 90%;
   }
 }
 @media screen and (max-width: 62.5rem) {
@@ -747,7 +781,7 @@ body {
     display: flex;
   }
   .nav__mobile {
-    display: block;
+    display: flex;
   }
   .nav__ul {
     display: none;
@@ -777,43 +811,29 @@ body {
     font-size: 125%;
   }
   .cursus__p {
-    width: 49%;
+    width: 80%;
   }
 }
 @media screen and (max-width: 43.75rem) {
   .figure__form {
     display: none;
   }
+  .cursus__p {
+    width: 90%;
+  }
 }
-.nav__mobile {
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-
-.nav__mobile {
-  display: none;
-}
-
-.li__mobile {
-  list-style: none;
-  width: 100%;
-}
-
-.mobile__group {
-  display: flex;
-  gap: 2.5rem;
-}
-
-.figure__mobile {
-  width: 10rem;
-  height: 5rem;
-}
-
-.img__mobile {
-  width: 100%;
-  height: 100%;
-  vertical-align: middle;
+@media screen and (max-width: 37.5rem) {
+  .container__h2 {
+    margin-top: 6.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container__articles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
