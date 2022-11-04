@@ -14,7 +14,7 @@ You have to install Sass, tell Sass which file to build from and where to output
 
 for example:
 I want to run sass in my Udemy project. 
-I type in my cmd ```sass scss/style.scss css/style.css --watch```.
+I type in my cmd ```sass scss/style.scss css/style.css --watch```. <br>
 --watch looks for all the changes what is made in the file and compile CSS to the public/stylesheets folder.
 
 [You can learn more about sass to click on this](https://sass-lang.com/).
