@@ -13,7 +13,7 @@ Sass has features that don't exist in css yet for example nesting, mixins and ot
 You have to install Sass, tell Sass which file to build from and where to output CSS to. The most direct way to make this happen is in your terminal. 
 
 for example:
-If I want to run sass in my Udemy project, I type the following in my command prompt:
+If I want to run sass in my Udemy project, I type the following in my command prompt:<br>
 ```sass scss/style.scss css/style.css --watch```<br>
 --watch looks for all the changes what is made in the file and compile CSS to the public/stylesheets folder.
 
