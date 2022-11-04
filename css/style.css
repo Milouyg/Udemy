@@ -380,7 +380,7 @@ body {
 .topCategorieën {
   margin-top: 6.4rem;
   width: 100%;
-  height: 80rem;
+  height: auto;
 }
 
 .topcategorieën__h2 {
@@ -420,8 +420,8 @@ body {
 }
 
 .verschillendeOnderwerpen {
-  width: 144rem;
-  height: 45rem;
+  width: 100%;
+  height: auto;
   background: #f7f9fa;
   padding: 4rem 1.5rem;
 }
@@ -433,6 +433,7 @@ body {
 
 .verschillendeOnderwerpen__group {
   display: flex;
+  flex-wrap: wrap;
   gap: 9rem;
 }
 
@@ -486,6 +487,7 @@ body {
 
 .company__ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -497,8 +499,11 @@ body {
   width: 100%;
   height: auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin: 1rem;
+  flex-direction: column-reverse;
 }
 
 .coaches__figure {
@@ -543,6 +548,7 @@ body {
   width: 100%;
   height: auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin-bottom: 1rem;
@@ -607,18 +613,20 @@ body {
 .footer {
   position: relative;
   margin-top: 6.4rem;
-  width: 144rem;
-  height: 30rem;
+  width: 100%;
+  height: auto;
   padding: 0rem 4.8rem;
   background: #1c1d1f;
 }
 
 .footer__group {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .footer__left {
   display: flex;
+  flex-wrap: wrap;
   gap: 4rem;
   padding-top: 2.4rem;
 }
@@ -830,8 +838,29 @@ body {
   .cursus__p {
     width: 90%;
   }
+  .verschillendeOnderwerpen__group {
+    gap: 6.15rem;
+  }
 }
 @media screen and (max-width: 37.5rem) {
+  .cursus__h3 {
+    font-size: 100%;
+  }
+  .cursus__p {
+    font-size: 80%;
+  }
+  .cursus__listItem {
+    font-size: 90%;
+  }
+  .cursus__btn {
+    font-size: 70%;
+  }
+  .udlite__icon {
+    font-size: 110%;
+  }
+  .udlite__heading {
+    font-size: 80%;
+  }
   .container__h2 {
     margin-top: 6.4rem;
     display: flex;
@@ -843,6 +872,30 @@ body {
     align-items: center;
     justify-content: center;
   }
+  .container__h2 {
+    font-size: 115%;
+  }
+  .container__a {
+    font-size: 80%;
+  }
+  .container__data {
+    font-size: 80%;
+  }
+  .topcategorieën__h2 {
+    font-size: 115%;
+  }
+  .topCategorieën__span {
+    font-size: 90%;
+  }
+  .verschillendeOnderwerpen {
+    margin-top: 5rem;
+  }
+  .verschillendeOnderwerpen__h2 {
+    font-size: 110%;
+  }
+  .verschillendeOnderwerpen__h3 {
+    font-size: 90%;
+  }
   .topcategorieën__h2 {
     margin-bottom: 2.4rem;
     text-align: center;
@@ -852,6 +905,103 @@ body {
     align-items: center;
     justify-content: center;
     gap: 5rem;
+  }
+  .topCategorieen__img:hover {
+    transform: none;
+    transition: none;
+  }
+  .verschillendeOnderwerpen__h2 {
+    text-align: center;
+  }
+  .verschillendeOnderwerpen__group {
+    justify-content: center;
+  }
+  .verschillendeOnderwerpen__a {
+    font-size: 90%;
+  }
+  .verschillendeOnderwerpen__button {
+    display: flex;
+    margin: 0 auto;
+  }
+  .company {
+    margin-bottom: 2rem;
+  }
+  .company__h3 {
+    font-size: 100%;
+  }
+  .company__p {
+    font-size: 90%;
+  }
+  .nonStudent__h2 {
+    font-size: 115%;
+  }
+  .nonStudent__p {
+    font-size: 90%;
+  }
+  .nonStudent__button {
+    font-size: 70%;
+  }
+  .nonStudent__img {
+    width: 25rem;
+    height: 25rem;
+  }
+  .coaches {
+    margin-top: 2rem;
+  }
+  .coaches__figure {
+    width: 100%;
+    height: auto;
+  }
+  .coaches__img {
+    width: 25rem;
+    height: 25rem;
+  }
+  .coaches__group {
+    width: 100%;
+  }
+  .coaches__h2 {
+    font-size: 115%;
+  }
+  .coaches__p {
+    font-size: 90%;
+  }
+  .nonStudent__group {
+    width: none;
+    text-align: center;
+  }
+  .nonStudent__figure--logo {
+    width: 100%;
+  }
+  .nonStudent__h2 {
+    width: 100%;
+    font-size: 115%;
+  }
+  .nonStudent__ul {
+    width: 100%;
+  }
+  .nonStudent__p {
+    font-size: 90%;
+  }
+  .nonStudent__button {
+    font-size: 70%;
+  }
+  .footer {
+    height: auto;
+    padding: 0rem 2rem;
+    margin-bottom: 2rem;
+  }
+  .footer__left {
+    text-align: center;
+    justify-content: center;
+  }
+  .footer__right {
+    margin: 0 auto;
+  }
+  .footer__figure {
+    margin-top: 2rem;
+  }
+  .footer__span {
+    text-align: center;
   }
 }
 

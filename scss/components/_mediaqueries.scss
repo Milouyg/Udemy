@@ -1,3 +1,5 @@
+@use "../abstract/variables";
+
 // 1200 px
 @media screen and (max-width: 75rem) {
 
@@ -146,6 +148,7 @@
         }
     }
 
+
 }
 
 // 700 px
@@ -158,11 +161,38 @@
         width: 90%;
     }
 
+    .verschillendeOnderwerpen__group{
+        gap: 6.15rem;
+    }
 }
 
 
 // 600 px
 @media screen and (max-width: 37.5rem) {
+
+    .cursus__h3{
+        font-size: map-get(variables.$mediaqueries600, "fontsizeH3" );
+    }
+
+    .cursus__p {
+        font-size: 80%;
+    }
+
+    .cursus__listItem{
+        font-size: 90%;
+    }
+
+    .cursus__btn{
+        font-size: map-get(variables.$mediaqueries600, "fontsizeButton" );
+    }
+
+    .udlite__icon{
+        font-size: 110%;
+    }
+
+    .udlite__heading{
+        font-size: 80%;
+    }
 
     .container__h2 {
         margin-top: 6.4rem;
@@ -177,9 +207,47 @@
         justify-content: center;
     }
 
+    // .container__figcaption{
+    //   font-size: map-get(variables.$mediaqueries700, "fontsizeA" );
+    // }
+
+    .container__h2{
+        font-size: map-get(variables.$mediaqueries600, "fontsizeH2" );
+    }
+
+    .container__a{
+        font-size: 80%;
+    }
+
+    .container__data {
+        font-size: 80%;
+    }
+
+    .topcategorieën__h2{
+        font-size: map-get(variables.$mediaqueries600, "fontsizeH2" );
+    }
+
+    .topCategorieën__span{
+        font-size: 90%;
+    }
+
+    .verschillendeOnderwerpen {
+        margin-top: 5rem;
+    }
+
+    .verschillendeOnderwerpen__h2{
+        font-size: 110%;
+    }
+
+    .verschillendeOnderwerpen__h3{
+        font-size: 90%;
+    }
+
+
     .topcategorieën__h2 {
         margin-bottom: 2.4rem;
         text-align: center;
+
     }
 
     .topCategorieen__articles{
@@ -188,4 +256,132 @@
         justify-content: center;
         gap: 5rem;
     }
+    .topCategorieen__img:hover{
+        transform: none;
+        transition: none;
+    }
+
+    .verschillendeOnderwerpen__h2{
+        text-align: center;
+    }
+
+    .verschillendeOnderwerpen__group{
+        justify-content: center;
+    }
+
+    .verschillendeOnderwerpen__a{
+        font-size: map-get(variables.$mediaqueries600, "fontsizeA" );
+    }
+
+    .verschillendeOnderwerpen__button{
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .company{
+        margin-bottom: 2rem;
+    }
+
+    .company__h3{
+        font-size: map-get(variables.$mediaqueries600, "fontsizeH3" );
+    }
+
+    .company__p{
+        font-size: map-get(variables.$mediaqueries600, "fontsizeP" );
+    }
+
+    .nonStudent__h2{
+        font-size: map-get(variables.$mediaqueries600, "fontsizeH2" );
+    }
+
+    .nonStudent__p{
+        font-size: map-get(variables.$mediaqueries600, "fontsizeP" );
+    }
+
+    .nonStudent__button{
+        font-size: map-get(variables.$mediaqueries600, "fontsizeButton" );
+    }
+
+    .nonStudent__img{
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .coaches{
+        margin-top: 2rem;
+    }
+
+    .coaches__figure{
+        width: 100%;
+        height: auto;
+    }
+
+    .coaches__img{
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .coaches__group{
+        width: 100%;
+    }
+
+    .coaches__h2{
+        font-size: map-get(variables.$mediaqueries600, "fontsizeH2" );
+    }
+
+    .coaches__p{
+        font-size: map-get(variables.$mediaqueries600, "fontsizeP" );
+    }
+
+    
+
+    .nonStudent__group{
+        width: none;
+        text-align: center;
+    }
+
+    .nonStudent__figure--logo{
+        width: 100%;
+    }
+    
+    .nonStudent__h2{
+        width: 100%;
+        font-size: map-get(variables.$mediaqueries600, "fontsizeH2" );
+    }
+
+    .nonStudent__ul {
+        width: 100%;
+    }
+
+    .nonStudent__p{
+        font-size: map-get(variables.$mediaqueries600, "fontsizeP" );
+    }
+
+    .nonStudent__button {
+        font-size: map-get(variables.$mediaqueries600, "fontsizeButton" );
+    }
+
+    .footer{
+        height: auto;
+        padding: 0rem 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .footer__left{
+        text-align: center;
+        justify-content: center;
+    }
+
+    .footer__right{
+        margin: 0 auto;
+    }
+
+    .footer__figure{
+        margin-top: 2rem;
+    }
+
+    .footer__span{
+        text-align: center;
+    }
+    
 }

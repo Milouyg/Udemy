@@ -21,6 +21,7 @@
 
 .company__ul{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 

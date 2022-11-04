@@ -1,8 +1,8 @@
 @use "./../abstract/colors.scss";
 
 .verschillendeOnderwerpen{
-    width: 144rem;
-    height: 45rem;
+    width: 100%;
+    height: auto;
     background: #f7f9fa;
     padding: 4rem 1.5rem;
 }
@@ -14,6 +14,7 @@
 
 .verschillendeOnderwerpen__group{
     display: flex;
+    flex-wrap: wrap;
     gap: 9rem;
 }
 
