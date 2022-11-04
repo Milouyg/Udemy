@@ -136,6 +136,16 @@
         width: 80%;
     }
 
+    .topCategorieën__figure {
+        width: 24rem;
+        height: 24rem;
+
+        &:hover{
+            transition: none;
+            transform: none;
+        }
+    }
+
 }
 
 // 700 px
@@ -150,6 +160,8 @@
 
 }
 
+
+// 600 px
 @media screen and (max-width: 37.5rem) {
 
     .container__h2 {
@@ -163,5 +175,17 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .topcategorieën__h2 {
+        margin-bottom: 2.4rem;
+        text-align: center;
+    }
+
+    .topCategorieen__articles{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
     }
 }

@@ -390,6 +390,7 @@ body {
 .topCategorieen__articles {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 3rem;
 }
 
@@ -813,6 +814,14 @@ body {
   .cursus__p {
     width: 80%;
   }
+  .topCategorieën__figure {
+    width: 24rem;
+    height: 24rem;
+  }
+  .topCategorieën__figure:hover {
+    transition: none;
+    transform: none;
+  }
 }
 @media screen and (max-width: 43.75rem) {
   .figure__form {
@@ -833,6 +842,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .topcategorieën__h2 {
+    margin-bottom: 2.4rem;
+    text-align: center;
+  }
+  .topCategorieen__articles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
   }
 }
 
