@@ -225,7 +225,7 @@ body {
   cursor: pointer;
 }
 
-.cursus_figure {
+.cursus__figure {
   margin-top: 1.5rem;
   width: 100%;
   height: auto;
@@ -289,7 +289,7 @@ body {
   margin-top: 6.4rem;
   padding: 2rem 0;
   z-index: 1;
-  background: grey;
+  background: #f7f9fa;
 }
 
 .udlite__groups {
@@ -298,6 +298,12 @@ body {
   width: 100%;
   flex-wrap: wrap;
   gap: 2rem;
+}
+
+.udlite__group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .udlite__icon {
@@ -503,7 +509,6 @@ body {
   justify-content: center;
   align-items: center;
   margin: 1rem;
-  flex-direction: column-reverse;
 }
 
 .coaches__figure {
