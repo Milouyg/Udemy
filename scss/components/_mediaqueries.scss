@@ -2,7 +2,9 @@
 
 // 1200 px
 @media screen and (max-width: 75rem) {
-
+    .magnifyingGlass{
+        top: 3.75rem;
+    }
 
     .figure__form {
         width: 40rem;
@@ -55,6 +57,11 @@
 
 // 920 px
 @media screen and (max-width: 57.5rem) {
+
+    .magnifyingGlass{
+        top: 2.75rem;
+    }
+
     .nav__a--lesgeven {
         display: none;
     }
@@ -65,6 +72,14 @@
 
     .figure__btn {
         display: none;
+    }
+
+    .verschillendeOnderwerpen__group{
+        gap: 3rem;
+    }
+
+    .footer{
+        padding: 0rem 3.8rem;
     }
 
 }
@@ -87,6 +102,10 @@
     .figure__p {
         font-size: 80%;
         padding-top: 1rem;
+    }
+
+    .footer__group {
+        justify-content: center;
     }
 }
 
@@ -162,7 +181,7 @@
     }
 
     .verschillendeOnderwerpen__group{
-        gap: 6.15rem;
+        gap: 6.2rem;
     }
 }
 
@@ -384,4 +403,17 @@
         text-align: center;
     }
     
+}
+
+// 550 px
+@media screen and (max-width: 34.375rem){
+
+    .verschillendeOnderwerpen__group{
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .verschillendeOnderwerpen__figure{
+    width: 100%;
+    }
 }

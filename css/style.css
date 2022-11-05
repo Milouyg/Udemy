@@ -440,7 +440,6 @@ body {
 .verschillendeOnderwerpen__group {
   display: flex;
   flex-wrap: wrap;
-  gap: 9rem;
 }
 
 .verschillendeOnderwerpen__figure {
@@ -626,6 +625,7 @@ body {
 
 .footer__group {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -657,7 +657,6 @@ body {
 
 .footer__right {
   padding-top: 2.4rem;
-  margin-left: 40%;
 }
 
 .footer__button {
@@ -726,6 +725,9 @@ body {
 }
 
 @media screen and (max-width: 75rem) {
+  .magnifyingGlass {
+    top: 3.75rem;
+  }
   .figure__form {
     width: 40rem;
     padding: 1rem 2.5rem;
@@ -764,6 +766,9 @@ body {
   }
 }
 @media screen and (max-width: 57.5rem) {
+  .magnifyingGlass {
+    top: 2.75rem;
+  }
   .nav__a--lesgeven {
     display: none;
   }
@@ -772,6 +777,12 @@ body {
   }
   .figure__btn {
     display: none;
+  }
+  .verschillendeOnderwerpen__group {
+    gap: 3rem;
+  }
+  .footer {
+    padding: 0rem 3.8rem;
   }
 }
 @media screen and (max-width: 53.125rem) {
@@ -788,6 +799,9 @@ body {
   .figure__p {
     font-size: 80%;
     padding-top: 1rem;
+  }
+  .footer__group {
+    justify-content: center;
   }
 }
 @media screen and (max-width: 50rem) {
@@ -844,7 +858,7 @@ body {
     width: 90%;
   }
   .verschillendeOnderwerpen__group {
-    gap: 6.15rem;
+    gap: 6.2rem;
   }
 }
 @media screen and (max-width: 37.5rem) {
@@ -1007,6 +1021,15 @@ body {
   }
   .footer__span {
     text-align: center;
+  }
+}
+@media screen and (max-width: 34.375rem) {
+  .verschillendeOnderwerpen__group {
+    text-align: center;
+    gap: 2rem;
+  }
+  .verschillendeOnderwerpen__figure {
+    width: 100%;
   }
 }
 

@@ -12,6 +12,7 @@
 
 .footer__group{
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -44,7 +45,6 @@
 
 .footer__right{
     padding-top: 2.4rem;
-    margin-left: 40%;
 }
 
 .footer__button{
