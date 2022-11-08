@@ -9,10 +9,18 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 1rem;
+    gap: 2rem;
 }
 
 .nonStudent__group{
     width: 52rem;
+}
+
+.nonStudent__figure{
+    width: 50rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .nonStudent__figure--logo{
@@ -24,6 +32,12 @@
     width: 75%;
     height: 100%;
     object-fit: contain;
+}
+
+.nonStudent__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .nonStudent__h2{

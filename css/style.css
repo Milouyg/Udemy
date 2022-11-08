@@ -69,7 +69,7 @@ body {
 }
 
 .nav__figure {
-  width: 10rem;
+  width: 12rem;
   height: 5rem;
 }
 
@@ -115,7 +115,6 @@ body {
 
 .header {
   width: 100%;
-  height: calc(100vh - 7.2rem);
   margin: 0 auto;
 }
 
@@ -123,7 +122,10 @@ body {
   display: flex;
   justify-content: center;
   position: relative;
-  width: 100%;
+  width: 85%;
+  height: 80%;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .figure__btn {
@@ -154,22 +156,22 @@ body {
 }
 
 .figure__form {
-  width: 44rem;
-  height: 18.9rem;
+  width: 35rem;
+  height: 15rem;
   background: white;
   position: absolute;
   top: 6rem;
-  left: 7rem;
+  left: 20rem;
   box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 .figure__h2 {
-  font-size: 175%;
+  font-size: 150%;
   font-weight: 800;
 }
 
@@ -408,6 +410,7 @@ body {
 .topCategorieen__img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 .topCategorieen__img:hover {
   cursor: pointer;
@@ -486,6 +489,10 @@ body {
   margin-left: auto;
 }
 
+.company__h3 {
+  font-size: 120%;
+}
+
 .company__p {
   margin: 0.8rem 0 2.4rem;
 }
@@ -498,6 +505,14 @@ body {
 
 .company__brand {
   list-style: none;
+  width: 10rem;
+  height: 10rem;
+}
+
+.company__img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .coaches {
@@ -507,7 +522,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 1rem;
+  gap: 4rem;
 }
 
 .coaches__figure {
@@ -518,11 +533,13 @@ body {
 .coaches__img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .coaches__group {
   max-width: 40rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .coaches__h2 {
@@ -556,10 +573,18 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 1rem;
+  gap: 2rem;
 }
 
 .nonStudent__group {
   width: 52rem;
+}
+
+.nonStudent__figure {
+  width: 50rem;
+  height: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .nonStudent__figure--logo {
@@ -571,6 +596,12 @@ body {
   width: 75%;
   height: 100%;
   object-fit: contain;
+}
+
+.nonStudent__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .nonStudent__h2 {
@@ -714,7 +745,7 @@ body {
 }
 
 .figure__mobile {
-  width: 10rem;
+  width: 12rem;
   height: 5rem;
 }
 
@@ -726,14 +757,15 @@ body {
 
 @media screen and (max-width: 75rem) {
   .magnifyingGlass {
-    top: 3.75rem;
+    top: 2.75rem;
   }
   .figure__form {
-    width: 40rem;
+    width: 30rem;
     padding: 1rem 2.5rem;
+    left: 15%;
   }
   .figure__h2 {
-    font-size: 150%;
+    font-size: 125%;
   }
   .figure__p {
     font-size: 100%;
@@ -745,24 +777,32 @@ body {
     display: none;
   }
   .figure__form {
-    width: 38rem;
+    width: 26rem;
+    height: 12rem;
     position: absolute;
-    top: 10%;
+    top: 8%;
+    left: 10%;
     padding: 1rem 2rem;
   }
   .figure__h2 {
-    font-size: 125%;
+    font-size: 100%;
   }
   .figure__p {
-    font-size: 80%;
+    font-size: 75%;
   }
   .cursus__p {
     width: 90%;
+  }
+  .coaches {
+    gap: 2rem;
   }
 }
 @media screen and (max-width: 62.5rem) {
   .cursus__h2 {
     font-size: 150%;
+  }
+  .coaches {
+    gap: 0rem;
   }
 }
 @media screen and (max-width: 57.5rem) {
@@ -773,7 +813,8 @@ body {
     display: none;
   }
   .figure__form {
-    width: 40rem;
+    width: 23rem;
+    left: 5%;
   }
   .figure__btn {
     display: none;
@@ -787,17 +828,16 @@ body {
 }
 @media screen and (max-width: 53.125rem) {
   .figure__form {
-    width: 35rem;
-    height: 15rem;
+    height: 10rem;
     position: absolute;
     top: 10%;
     padding: 1rem 2rem;
   }
   .figure__h2 {
-    font-size: 120%;
+    font-size: 100%;
   }
   .figure__p {
-    font-size: 80%;
+    font-size: 70%;
     padding-top: 1rem;
   }
   .footer__group {
@@ -826,10 +866,11 @@ body {
     display: none;
   }
   .figure__form {
+    top: 15%;
     padding: 1rem 2rem;
   }
   .figure__h2 {
-    font-size: 110%;
+    font-size: 100%;
   }
   .figure__p {
     font-size: 70%;
@@ -970,6 +1011,8 @@ body {
   .coaches__figure {
     width: 100%;
     height: auto;
+    display: flex;
+    justify-content: center;
   }
   .coaches__img {
     width: 25rem;
@@ -977,6 +1020,7 @@ body {
   }
   .coaches__group {
     width: 100%;
+    text-align: center;
   }
   .coaches__h2 {
     font-size: 115%;

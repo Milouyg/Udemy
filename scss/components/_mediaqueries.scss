@@ -3,16 +3,17 @@
 // 1200 px
 @media screen and (max-width: 75rem) {
     .magnifyingGlass{
-        top: 3.75rem;
+        top: 2.75rem;
     }
 
     .figure__form {
-        width: 40rem;
+        width: 30rem;
         padding: 1rem 2.5rem;
+        left: 15%;
     }
 
     .figure__h2 {
-        font-size: 150%;
+        font-size: 125%;
     }
 
     .figure__p {
@@ -28,22 +29,28 @@
     }
 
     .figure__form {
-        width: 38rem;
+        width: 26rem;
+        height: 12rem;
         position: absolute;
-        top: 10%;
+        top: 8%;
+        left: 10%;
         padding: 1rem 2rem;
     }
 
     .figure__h2 {
-        font-size: 125%;
+        font-size: 100%;
     }
 
     .figure__p {
-        font-size: 80%;
+        font-size: 75%;
     }
 
     .cursus__p {
         width: 90%;
+    }
+
+    .coaches{
+        gap: 2rem;
     }
 }
 
@@ -52,6 +59,10 @@
 @media screen and (max-width: 62.5rem) {
     .cursus__h2 {
         font-size: 150%;
+    }
+
+    .coaches{
+        gap: 0rem;
     }
 }
 
@@ -67,7 +78,8 @@
     }
 
     .figure__form {
-        width: 40rem;
+        width: 23rem;
+        left: 5%;
     }
 
     .figure__btn {
@@ -88,19 +100,18 @@
 // 850
 @media screen and (max-width: 53.125rem) {
     .figure__form {
-        width: 35rem;
-        height: 15rem;
+        height: 10rem;
         position: absolute;
         top: 10%;
         padding: 1rem 2rem;
     }
 
     .figure__h2 {
-        font-size: 120%;
+        font-size: 100%;
     }
 
     .figure__p {
-        font-size: 80%;
+        font-size: 70%;
         padding-top: 1rem;
     }
 
@@ -137,11 +148,12 @@
     }
 
     .figure__form {
+        top: 15%;
         padding: 1rem 2rem;
     }
 
     .figure__h2 {
-        font-size: 110%;
+        font-size: 100%;
     }
 
     .figure__p {
@@ -333,6 +345,8 @@
     .coaches__figure{
         width: 100%;
         height: auto;
+        display: flex;
+        justify-content: center;
     }
 
     .coaches__img{
@@ -342,6 +356,7 @@
 
     .coaches__group{
         width: 100%;
+        text-align: center;
     }
 
     .coaches__h2{

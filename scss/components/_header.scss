@@ -3,7 +3,7 @@
 
 .header {
     width: 100%;
-    height: calc(100vh - 7.2rem);
+    // height: calc(100vh - 7.2rem);
     margin: 0 auto;
 }
 
@@ -11,7 +11,10 @@
     display: flex;
     justify-content: center;
     position: relative;
-    width: 100%;
+    width: 85%;
+    height: 80%;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .figure__btn {
@@ -41,20 +44,20 @@
 }
 
 .figure__form {
-    width: 44rem;
-    height: 18.9rem;
+    width: 35rem;
+    height: 15rem;
     background: white;
     position: absolute;
     top: 6rem;
-    left: 7rem;
+    left: 20rem;
     box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.1);
     @include mixins.flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .figure__h2 {
-    font-size: 175%;
+    font-size: 150%;
     font-weight: 800;
 }
 
