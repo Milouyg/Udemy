@@ -118,7 +118,7 @@ body {
   margin: 0 auto;
 }
 
-.header__figure {
+.figure {
   display: flex;
   justify-content: center;
   position: relative;
@@ -160,7 +160,7 @@ body {
   height: 15rem;
   background: white;
   position: absolute;
-  top: 6rem;
+  top: 10%;
   left: 20rem;
   box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -1074,6 +1074,9 @@ body {
   }
   .verschillendeOnderwerpen__figure {
     width: 100%;
+  }
+  .nonStudent__button--udemyBusiness {
+    margin-bottom: 1rem;
   }
 }
 
