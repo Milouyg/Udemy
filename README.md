@@ -9,10 +9,6 @@ I also use a little bit Javascript and scss within different components and abst
 Bem is a Methodology you can use in your projects, it will benefit from the advantages of more structured CSS and UI. Bem stands for: Blocks, Elements and Modifiers. The main idea behind it, is to speed up the development process and ease the teamwork of developers by arraging CSS classes into independent modules. 
 [Click here for more information](https://getbem.com/introduction/).
 
-# What is BEM?
-Bem is a Methodology you can use in your projects, it will benefit from the advantages of more structured CSS and UI. Bem stands for: Blocks, Elements and Modifiers. The main idea behind it, is to speed up the development process and ease the teamwork of developers by arraging CSS classes into independent modules. 
-[Click here for more information](https://getbem.com/introduction/).
-
 # What is scss?
 Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
 Sass has features that don't exist in css yet for example nesting, mixins and other useful stuff. It helps you write maintainable css.
