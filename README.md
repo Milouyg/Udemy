@@ -2,7 +2,7 @@
 
 # What do you read in this file?
 For the final assignment from Front-end I had to mimic the website "Udemy." Udemy is an online learning and teaching marketplace. Instead of using their content, I have to use the content about gaming.
-You will see the Index.html what I tried to make as much semantic as possible and I use the BEM methode.
+You will see the Index.html what I tried to make as much semantic as possible and I use the BEM method.
 I also use a little bit Javascript and scss within different components and abstract.
 
 # What is BEM?
