@@ -14,7 +14,7 @@ Sass is the most mature, stable, and powerful professional grade CSS extension l
 Sass has features that don't exist in css yet for example nesting, mixins and other useful stuff. It helps you write maintainable css.
 
 # How to use scss?
-You have to install Sass, tell Sass which file to build from and where to output CSS to. The most direct way to make this happen is in your terminal. 
+You have to install Node.js and Sass, tell Sass which file to build from and where to output CSS to. The most direct way to make this happen is in your terminal. In your cmd you type: npm install -g sass.
 
 for example:
 If I want to run sass in my Udemy project, I type the following in my command prompt:<br>
